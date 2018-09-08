@@ -8,11 +8,11 @@ exports.run = (client, message, params) => {
   .setTitle("**Komutlar**")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField(`!eğlence`)
-  .addField(`!kullanıcı`)
-  .addField("**» Oyun Komutları**", `!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız. \n!steamoyun = İstediğiniz oyunun hakkında bilgi verir. `)
-  .addField("**» Sunucu Yetkilisi Komutları**", `!ban = İstediğiniz Kişiyi Sunucudan Banlar. \n!kick  = İstediğiniz Kişiyi Sunucudan Atar. \n!unban = İstediğiniz Kişinin Yasağını Açar. \n!sustur = İstediğiniz Kişiyi Susturur. \n!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \n!oylama = Oylama Açar. \n!duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
-  .addField("**» Botun Ana Komutları**", "!yardım = BOT Komutlarını Atar. \n!bilgi = BOT Kendisi Hakkında Bilgi Verir. \n!ping = BOT Gecikme Süresini Söyler. \n!davet = BOT Davet Linkini Atar. \n!istatistik = BOT İstatistiklerini Gösterir. \n!tavsiye = Botun gelişiminde sizde yardım edin")
+  .addField("**» !eğlence**", `\nyazarak komutlara baka bilirsin`)
+  .addField("**» !kullanıcı**", `\nyazarak komutlara baka bilirsin`)
+  .addField("**» !oyunkomut**", `\nyazarak komutlara baka bilirsin`)
+  .addField("**» !yetkilikodları**", `\nyazarak komutlara baka bilirsin`)
+  .addField("**» !botkomut**", `\nyazarak komutlara baka bilirsin`)
   .setFooter('ClawBot Güncel Sürüm [ BETA v0.2.5 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
